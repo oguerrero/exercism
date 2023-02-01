@@ -1,0 +1,14 @@
+{
+  "name": "exercism-ogurrero",
+  "version": "1.0.0",
+  "description": "exercism solutions for js language",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ogurrero",
+  "license": "ISC",
+  "devDependencies": {
+    "rome": "^11.0.0"
+  }
+}
