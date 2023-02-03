@@ -59,29 +59,3 @@ function scaleRecipe(recipe, portions) {
   Object.keys(modifiedRecipe).map(ingredient => modifiedRecipe[ingredient] *= portions / 2)
   return modifiedRecipe
 }
-
-const recipe = {
-  sauce: 0.5,
-  noodles: 250,
-  meat: 150,
-  tomatoes: 3,
-  onion: 0.5,
-};
-
-console.log(scaleRecipe(recipe, 6));
-// =>
-// {
-//   noodles: 400,
-//   sauce: 1,
-//   mozzarella: 2,
-//   meat: 200,
-// };
-
-console.log(recipe);
-// =>
-// {
-//   noodles: 200,
-//   sauce: 0.5,
-//   mozzarella: 1,
-//   meat: 100,
-// };
